@@ -15,7 +15,11 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <build>
-    <finalName>JenkinsWar</finalName>
-  </build>
+   <distributionManagement>
+       <repository>
+         <id>mynexus-id</id>
+         <name>mysnapshot</name>
+         <url>http://3.85.196.167:8081/repository/maven-snapshots//</url>
+       </repository>
+   </distributionManagement> 
 </project>
