@@ -17,8 +17,8 @@
   </dependencies>
    <distributionManagement>
        <repository>
-         <id>mynexus-id</id>
-         <name>mysnapshot</name>
+         <id>idnexus</id>
+         <name>maven-snapshots</name>
          <url>http://3.85.196.167:8081/repository/maven-snapshots//</url>
        </repository>
    </distributionManagement> 
