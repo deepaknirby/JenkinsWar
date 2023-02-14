@@ -1,4 +1,6 @@
 - hosts: appserver
   tasks:  
   - name: copying data from jenkins to tomcat
-    copy: src=target/jenkins-0.0.5 dest=/usr/local/tomcat9/webapps/
+    copy: src=target/mykingdom-2 dest=/usr/local/tomcat9/webapps/
+    
+    
